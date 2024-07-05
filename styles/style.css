@@ -1,0 +1,120 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw; 
+    height: 100vh;
+}
+.section1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #000000;
+    margin-bottom: 0;
+}
+.logo {
+    margin-left: 120px;
+    margin-top: 55px;
+}
+.landingLeft{
+    background: #D7D7D7;
+    margin-left: 40px;
+    p{
+        color: #909090;
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 130px;
+        margin-top: 70px;
+        div{
+            background-color: #C4C4C4;
+            width: 61px;
+            height: 56px;
+            border: 1px solid #ccc; /* Optional border */
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            img{
+                width: 34px;
+                height: 34px;
+                display: flex;
+                margin: 10px ;
+            }
+        }
+    }
+}
+.landingLeft h3:nth-child(2) {
+    margin-left: 125px;
+    margin-top: 170px;
+    font-size: 40px;
+    font-weight: 700px;
+    width: 171px;
+}
+.landingLeft h2:nth-child(3) {
+    margin-left: 130px;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 700px;
+    width: 532px;
+    margin-bottom: 0;
+}
+
+.landingRight{
+    background-color: #000000;
+   border-bottom-width: 250px;
+   border-top-width: 20px;
+   
+}
+.headLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+ 
+    button{
+        width: 147px;
+        height: 46px;
+        margin: auto;
+        margin-top: 45px;
+        margin-left: 30px;
+        border: 4px solid black;
+        border-radius: 30px;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+.headLinks ul{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 55px;
+
+    li{
+        list-style: none;
+        color:  #FFFFFF;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+.landingRight img:nth-child(2) {
+    width: 550px;
+    height: 650px;
+}
+.section2{
+    background-color: #1d1d1d;
+    margin-top: 0;
+    padding: 25px 80px;
+}
+.section3{
+    background-color: #D7D7D7;
+    margin: 15px auto;
+}
