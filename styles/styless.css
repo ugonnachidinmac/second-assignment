@@ -1,0 +1,165 @@
+ /* *{
+    border: 1px solid black;
+
+} */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw; 
+    height: 100vh;
+}
+.section1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #000000; */
+    margin-bottom: 0;
+    background: #D7D7D7;
+   
+    .navBar{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+.logo {
+    margin-left: 120px;
+    margin-top: 55px;
+    margin-right: 522px; 
+
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 680px;
+    ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 55px;
+    a{
+        text-decoration: none;
+        list-style: none;
+    }
+    }
+
+    li{
+        list-style: none;
+        color:  white;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    button{
+        width: 147px;
+        height: 46px;
+        margin-top: 45px;
+        margin-left: 30px;
+        border: none;
+        border-radius: 30px;
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-weight: 700;
+        background: white;
+        color: black;
+    }
+}
+
+.BioData{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 120px;
+    gap: 50px;
+    margin-top: -10px;
+    .BioDataLeftBox{
+      margin-top: 150px;
+        h3{
+            font-size: 40px;
+            font-weight: 700px;
+        }
+        h2{
+            font-size: 65px;
+            font-weight: 700px;
+            width: 532px;
+        }
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-top: 50px;
+            div{
+                background-color: #C4C4C4;
+                width: 61px;
+                height: 56px;
+                border: 1px solid #ccc; 
+                border-radius: 10px; 
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+                img{
+                    width: 34px;
+                    height: 34px;
+                    display: flex;
+                    margin: 10px ;
+                }
+            }
+        }
+        p{
+            font-size: 25px;
+            margin-top: -60px;
+        }
+    }
+}
+
+
+.BioDataRightBox{
+    background: black;
+    img{
+        width: 783px;
+        height: 650px;
+        margin-top: 0;
+    }
+    div{
+        width: 142px;
+        height: 60px;
+        font-size: 15px;
+        font-weight: 400px;
+        color: black;
+        margin-left: 350px;
+        margin-top: -90px;
+    }
+}
+
+.section2{
+    background-color: #1d1d1d;
+    margin-top: 0;
+    padding: 25px 80px;
+}
+.aboutMe{
+    a{
+        border: 1px solid black;
+      
+    }
+ 
+}
+.icon1{
+    display: flex;
+    flex-direction: row;
+}
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Optional: Center text within the section */
+    background-color: #D7D7D7;
+  }
+  
+  .section3Div {
+    max-width: 800px; /* Optional: Control the width of your content */
+  }
